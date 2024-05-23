@@ -99,3 +99,25 @@ p + p {
 }
 
 /* footer */
+#line {
+  width: 570px;
+  border: 1px solid var(--text-hightlight);
+  margin: 0 auto 27px;
+}
+
+footer {
+  margin-top: 160px;
+  margin-bottom: 20px;
+  font-family: "JetBrains Mono", monospace;
+  color: var(--text-primary);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+#padlock {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
