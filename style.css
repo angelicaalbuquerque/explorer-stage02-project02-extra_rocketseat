@@ -1,0 +1,64 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* color variables */
+:root {
+  --text-primary: #ffffff;
+  --text-secondary: #c2c2c2;
+  --text-hightlight: #00bfa6;
+  --background-color: #2f2e41;
+}
+
+/* general */
+#page {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+ul li a,
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+/* header */
+header {
+  padding: 70px 0 100px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  font-family: "JetBrains Mono", monospace;
+  display: flex;
+  gap: 64px;
+}
+
+ul li a {
+  color: var(--text-primary);
+}
+
+ul li a:hover {
+  color: var(--text-hightlight);
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+/* main */
+
+/* footer */
