@@ -15,7 +15,7 @@
 
 /* general */
 #page {
-  width: 1080px;
+  width: 1090px;
   margin: 0 auto;
 }
 
@@ -30,6 +30,10 @@ a {
 
 ul li {
   list-style: none;
+}
+
+span {
+  color: var(--text-hightlight);
 }
 
 /* header */
@@ -64,5 +68,34 @@ ul li a:hover {
 }
 
 /* main */
+main {
+  display: flex;
+  gap: 82px;
+}
+
+h1 {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 60px;
+}
+
+p {
+  color: var(--text-secondary);
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  width: 604px;
+}
+
+p span {
+  font-weight: 700;
+}
+
+p + p {
+  margin-top: 20px;
+}
 
 /* footer */
